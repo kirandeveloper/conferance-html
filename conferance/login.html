@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Conference - Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./image/favicon.png" rel="icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Bootstrap 5 CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+        <button onclick="topFunction()" id="gotoTop" title="Go to top">
+            <img src="image/back-to-top.png" alt="back-to-top" />
+        </button>
+        <!-- ================= NAVBAR ================= -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="image/logo.jpg" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="committee.html">Committee</a></li>
+                    <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register_doctor.html">Registration</a></li>
+                    <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tourist_attraction.html">Tourist Attraction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="login.html">Login</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="d-none d-lg-block position-fixed text-white text-end px-3 py-3 emailfix">
+            <a href="mailto:boai@bestofoncologyindia.com" class="text-white text-decoration-none fw-bold">
+               boai@bestofoncologyindia.com
+            </a>
+        </div>
+        <!-- ================= HEADING SECTION ================= -->
+        <section class="container-fluid p-3">
+            <div class="container text-center my-3">
+                <h2 class="mb-3 pt-5">Login</h2>
+                <hr class="mx-auto hrsmall">
+                <section id="login" class="container d-flex justify-content-center align-items-center mt-5">
+                    <div class="card shadow p-3 mb-4 bg-white rounded">
+                        <form action="login.php" method="post">
+                            <div class="form-outline mb-4 ">
+                                <input type="text" id="username" name="username" class="form-control" placeholder="Username" autocomplete="username" required="" fdprocessedid="cdq0zo">
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input type="password" id="password" name="password" class="form-control" placeholder="Password" autocomplete="current-password" required="" fdprocessedid="cch9xf">
+                            </div>
+
+                            <div class="g-recaptcha" data-sitekey="6Lfkb7sqAAAAAElsTerC3LV0vQKaKml93vL7RM54"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-vw69bkanr6cn" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfkb7sqAAAAAElsTerC3LV0vQKaKml93vL7RM54&amp;co=aHR0cHM6Ly9jb25mZXJlbmNlLmNhcmVjb21wLm5ldDo0NDM.&amp;hl=en&amp;v=AWtrSI7lAmTAfV1rzWqEqz54&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=3n8b1k7mdi6e"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                            <a href="forgetpassword.php" class="text-lg">Forgot password</a>
+                            <a href="index.php" class="text-lg">home ?</a>
+
+                            <div class="col-sm-12 text-center p-0 mt-3 ">
+                                <button class="btn btn-outline-primary" type="login" name="login" fdprocessedid="m5hd8m">Login</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </section> 
+
+        <!-- ================= FOOTER ================= -->
+        <footer class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <h3>Best of ASCO Connect:</h3>
+                        <p>Subscribe to Updates from Best of ASCO India 2025</p>
+                        <form action="">
+                            <div class="mb-3 mt-3 col-md-6">
+                                <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email">
+                            </div>
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-dark w-100 fw-bold border-0 rounded-0 pt-2 pb-2">Subscribe Now</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-12">&nbsp;</div>
+                    <div class="col-md-3 col-12">
+                        <h3>Conference Manager:</h3>
+                        <p>Kavina Creations</p>
+                        <p>Kashish Parikh</p>
+                        <p><a href="https://kavinacreations.com" target="_blank">https://kavinacreations.com</a></p>
+                        <p><a href="mailto:info@kavinacreations.com">info@kavinacreations.com</a></p>
+                        <p>9819025850</p>
+                    </div>
+                </div>
+                <p class="mb-0 text-center py-3">©2026 Best of ASCO India | Website Managed by CareComp</p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap 5 JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </body>
+</html>
