@@ -1,0 +1,93 @@
+{
+  "day": "Day 1 | 19th December, 2025 | Friday",
+  "halls": [
+    {
+      "hallName": "Hall A - Amber",
+      "sessions": [
+        {
+          "time": "05:00 PM to 05:30 PM",
+          "title": "Registration",
+          "details": [
+            "Session Coordinator : Soffiya Anthony."
+          ],
+          "bgClass": "scheduleng-greenbg"
+        },
+        {
+          "time": "09:30 AM to 10:15 AM",
+          "title": "Kavina Activities",
+          "details": [
+            "Session Coordinator : Kashish Parikh",
+            "Chairperson : Dr Purvish Parikh."
+          ],
+          "bgClass": "scheduleng-purplebg"
+        },
+        {
+          "time": "10:15 AM to 11:00 AM",
+          "title": "Activities Carried out by Kavina Creations",
+          "speaker": "Rahul Panikar"
+        },
+        {
+          "time": "11:00 AM to 11:15 AM",
+          "title": "Introduction to Kavina Creations",
+          "speaker": "Kashish Parikh",
+          "presentedBy": "Dr Purvish Parikh"
+        },
+        {
+          "time": "05:50 PM to 06:20 PM",
+          "title": "Panel Discussion",
+          "details": [
+            "Moderator : Dr Purvish Parikh",
+            "Panelists : Milan Sinha, Kashish Parikh, Rahul Panikar, Vinesh Murudkar"
+          ]
+        },
+        {
+          "time": "09:30 AM to 10:15 AM",
+          "title": "Test Session",
+          "details": [
+            "Chairperson : Dr Purvish Parikh."
+          ],
+          "bgClass": "scheduleng-brownbg"
+        }
+      ]
+    },
+
+    {
+      "hallName": "Hall B - Sapphire",
+      "sessions": [
+        {
+          "time": "05:00 PM to 05:30 PM",
+          "title": "Registration",
+          "details": [
+            "Session Coordinator : Vinesh Murudkar."
+          ],
+          "bgClass": "scheduleng-greenbg"
+        },
+        {
+          "time": "09:30 AM to 10:15 AM",
+          "title": "Oncology Innovations",
+          "details": [
+            "Chairperson : Dr Milan Sinha"
+          ],
+          "bgClass": "scheduleng-purplebg"
+        },
+        {
+          "time": "10:15 AM to 11:00 AM",
+          "title": "Future of Cancer Research",
+          "speaker": "Dr Purvish Parikh"
+        },
+        {
+          "time": "11:00 AM to 11:15 AM",
+          "title": "Networking Break"
+        },
+        {
+          "time": "05:50 PM to 06:20 PM",
+          "title": "Expert Panel Discussion",
+          "details": [
+            "Moderator : Rahul Panikar",
+            "Panelists : Kashish Parikh, Milan Sinha"
+          ]
+        }
+      ]
+    }
+  ]
+}

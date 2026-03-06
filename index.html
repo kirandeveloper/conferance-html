@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Conference - Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./image/favicon.png" rel="icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Bootstrap 5 CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <button onclick="topFunction()" id="gotoTop" title="Go to top">
+            <img src="image/back-to-top.png" alt="back-to-top" />
+        </button>
+        <!-- ================= NAVBAR ================= -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.jpg" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="committee.html">Committee</a></li>
+                <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="register_doctor.html">Registration</a></li>
+                <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+                <li class="nav-item"><a class="nav-link" href="tourist_attraction.html">Tourist Attraction</a></li>
+                <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        <!-- ================= Marquee ================= -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center py-1">
+                    <marquee behavior="scroll" direction="left" scrollamount="5">
+                        Welcome to 2nd Kavina Creations Conference at Mumbai on 16th Oct 2025. For more info please contact info@kavinacreations.com                 
+                    </marquee>
+                </div>
+            </div>
+        </div>
+        <!-- ================= Marquee ================= -->
+
+        <!-- ================= THUMBNAIL CAROUSEL ================= -->
+        <div class="container-fluid px-0">
+            <div id="thumbnailCarousel" class="carousel slide thumbnail-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/carosel-banner01.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/id/1016/1200/400" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/id/1018/1200/400" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://picsum.photos/id/1019/1200/400" class="d-block w-100">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thumbnails -->
+            <div class="row thumbnail-nav text-center gx-0">
+                <div class="col">
+                    <img src="https://picsum.photos/id/1015/200/100" data-bs-target="#thumbnailCarousel" data-bs-slide-to="0" class="active-thumb">
+                </div>
+                <div class="col">
+                    <img src="https://picsum.photos/id/1016/200/100" data-bs-target="#thumbnailCarousel" data-bs-slide-to="1">
+                </div>
+                <div class="col">
+                    <img src="https://picsum.photos/id/1018/200/100" data-bs-target="#thumbnailCarousel" data-bs-slide-to="2">
+                </div>
+                <div class="col">
+                    <img src="https://picsum.photos/id/1019/200/100" data-bs-target="#thumbnailCarousel" data-bs-slide-to="3">
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= HEADING SECTION ================= -->
+        <section class="container-fluid p-3" id="organiser-message">
+            <div class="container text-center my-5">
+                <h2 class="mb-3">Message From the Organisers</h2>
+                <hr class="mx-auto hrsmall">
+                <p>
+                    On behalf of the Program planning Committee, we take great pleasure in inviting you to participate in the Best of ASCO® 2025 & other events.
+                </p>
+                <p>
+                    The meeting is scheduled from 27th to 29th June 2025. The theme for this year is "NextGen Oncology: Revolutionizing cutting edge therapy with latest innovations"
+                </p>
+                <p>
+                    The Best of ASCO® is an annual educational initiative that condenses highlights from ASCO's Annual Meeting every year. The Scientific Committee will select specific abstracts for presentation, based on its relevance, impact on day-to-day practice and the needs of oncology professionals in India.
+                </p>
+                <p>
+                    We wish to extend a warm welcome to everyone and look forward to your active participation in making this educational event a grand success.
+                </p>
+            </div>
+        </section> 
+        <!-- ================= STANDARD CAROUSEL ================= -->
+        <div id="mainCarousel" class="carousel slide thumbnail-carousel" data-bs-ride="carousel">
+            <h2 class="mb-3 text-center py-3">Glimpse of Past Best of ASCO India Conferences</h2>
+            <hr class="mx-auto hrsmall">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row gx-1">
+                        <div class="col-12 col-md-4">
+                            <img src="image/carosel_thumb/1.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <img src="image/carosel_thumb/2.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <img src="image/carosel_thumb/3.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row gx-1">
+                        <div class="col-12 col-md-4">
+                            <img src="image/carosel_thumb/4.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <img src="image/carosel_thumb/5.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <img src="image/carosel_thumb/6.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="row gx-1">
+                        <div class="col-12 col-md-4">
+                            <img src="image/carosel_thumb/7.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <img src="image/carosel_thumb/8.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <img src="image/carosel_thumb/9.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+                    <div class="row gx-1">
+                        <div class="col-12 col-md-4">
+                            <img src="image/carosel_thumb/10.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <img src="image/carosel_thumb/11.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-4 d-none d-md-block">
+                            <img src="image/carosel_thumb/12.png" class="d-block w-100 rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- ================= ASSOCIATION SECTION ================= -->
+        <section class="container-fluid">
+            <div class="association-section text-center my-5">
+                <h4 class="mb-4">In Association With</h4>
+                <div class="row justify-content-center align-items-center g-3">
+                    <!-- Repeat for each logo -->
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img1.jpg" class="img-fluid  partner-logo" alt="Logo 1">
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img2.jpg" class="img-fluid  partner-logo" alt="Logo 2">
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img3.jpg" class="img-fluid  partner-logo" alt="Logo 3">
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img4.jpg" class="img-fluid  partner-logo" alt="Logo 4">
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img5.jpg" class="img-fluid  partner-logo" alt="Logo 5">
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img6.jpg" class="img-fluid  partner-logo" alt="Logo 6">
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img7.jpg" class="img-fluid  partner-logo" alt="Logo 7">
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img8.jpg" class="img-fluid  partner-logo" alt="Logo 8">
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img9.jpg" class="img-fluid  partner-logo" alt="Logo 9">
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-1">
+                        <img src="image/partners/img10.jpg" class="img-fluid  partner-logo" alt="Logo 10">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="d-none d-lg-block position-fixed text-white text-end px-3 py-3 emailfix">
+            <a href="mailto:boai@bestofoncologyindia.com" class="text-white text-decoration-none fw-bold">
+               boai@bestofoncologyindia.com
+            </a>
+        </div>
+        <!-- ================= FOOTER ================= -->
+        <footer class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <h3>Best of ASCO Connect:</h3>
+                        <p>Subscribe to Updates from Best of ASCO India 2025</p>
+                        <form action="">
+                            <div class="mb-3 mt-3 col-md-6">
+                                <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email">
+                            </div>
+                            <div class="col-md-6">
+                                <button type="submit" class="btn btn-dark w-100 fw-bold border-0 rounded-0 pt-2 pb-2">Subscribe Now</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-12">&nbsp;</div>
+                    <div class="col-md-3 col-12">
+                        <h3>Conference Manager:</h3>
+                        <p>Kavina Creations</p>
+                        <p>Kashish Parikh</p>
+                        <p><a href="https://kavinacreations.com" target="_blank">https://kavinacreations.com</a></p>
+                        <p><a href="mailto:info@kavinacreations.com">info@kavinacreations.com</a></p>
+                        <p>9819025850</p>
+                    </div>
+                </div>
+                <p class="mb-0 text-center py-3">©2026 Best of ASCO India | Website Managed by CareComp</p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap 5 JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </body>
+</html>
